@@ -1,0 +1,129 @@
+<b> question:1  What is JavaScript?</b>
+<b> Answer:1 </b>
+    => javascript is a programming language.
+    => javascript is client side scripting language.
+    => javascript called inside of <head> and <body> inside of <script> tag
+    => javascrip is a case senstive language.
+   
+
+
+<b> question:2  What is the use of isNaN function?</b>
+<b> Answer:2 </b>
+    => nan stands for not a number.
+    => it is a value in javascrip used to represent an undefined or unrepresentable value.
+    => nan is the result of an operation that was supposed to return a number, but couldn't because of an error or empty value.
+
+
+<b> question:3  What is negative Infinity?</b>
+<b> Answer:3 </b>
+    => negative Infinity is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in javascrip. 
+
+
+<b> question:4  Which company developed JavaScript?</b>
+<b> Answer:4 </b>
+    => javascrip was created at netscape communications by brendan eich in 1995.
+    => netscape and eich designed javascrip as a scripting language for use with the company flagship web browser, netscape navigator.
+
+
+<b> question:5  What are undeclared and undefined variables?</b>
+<b> Answer:5 </b>
+    => undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have been declared but not given a value.
+
+
+<b> question:6  Write the code for adding new elements dynamically?</b>
+<b> Answer:6 </b>
+    => <script>
+          function createnewelement() {
+            var newparagraph = document.createelements("p");
+          }
+       </script>
+       
+       <body>
+          <p>this is a differently created paragraph.</p>
+       </body>
+
+
+<b> question:7  What is the difference between ViewState and SessionState?</b>
+<b> Answer:7 </b>
+    => storage the viewstate is stored within the page itself. 
+    => the SessionState is stored in the server. session is used mainly for storing user specific data.
+
+
+<b> question:8  What is === operator?</b>
+<b> Answer:8 </b>
+    => javascrip === is a comparison operator that checks the equality of two values without performing any type conversion.
+    => while comparing the variables, it first checks if the types differ if they do,it returns false.
+
+
+<b> question:9  How can the style/class of an element be changed?</b>
+<b> Answer:9 </b>
+    => there are two common approaches that allows us to achieve this task.
+       1) style.property 
+       2) changing the class itself
+
+       ex: 1) style.property: 
+                 document.getelementbyid("id").style.property= new_style
+           2) changing the class itself: 
+                 document.getelementbyid("id").classlist
+
+
+<b> question:10  How to read and write a file using JavaScript?</b>
+<b> Answer:10 </b>
+    => the read and write operation in a file can be done by using some commands but the module which is required to perform these operations is to be imported. the required module is 'fs' which is called as file system module in javascrip.
+
+
+<b> question:11  What are all the looping structures in JavaScript?</b>
+<b> Answer:11 </b>
+    => the statements for loops provided in javascrip are 
+       1) for statements: for(condition)
+                          statement
+
+       2) do...while statements: do 
+                                 statement
+                                 while(condition);
+
+        3) while statements: while (condition)
+                             statement
+
+        4) for...in statements: for (variable in object)
+                                statement
+
+        5) for...of statements: for (variable of object)
+                                statement
+
+
+<b> question:12  How can you convert the string of any base to an integer in JavaScript?</b>
+<b> Answer:12 </b>
+    => to convert a string to an integer parselnt(), number() and unary operator(+) function is used in javascrip. the parselnt() function returns nan(not a number) when the string doesn't contain number. if a string with a number is sent, then only that number will be returned as the output.
+
+
+<b> question:13  What is the function of the delete operator?</b>
+<b> Answer:13 </b>
+    => the delete operator removes a property from an object. 
+    => if the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
+
+
+<b> question:14  What are all the types of Pop up boxes available in JavaScript?</b>
+<b> Answer:14 </b>
+    => javascrip has three kind of popup boxes: alert box, confirm box and prompt box. 
+
+
+<b> question:15  What is the use of Void (0)?</b>
+<b> Answer:15 </b>
+    => javascrip void 0 means returning undefined(void) as a primitive value. you might come across the term "javascrip:void(0)" while going through html document. it is used to prevent any side effects caused while inserting an expression in a wep page.
+
+
+<b> question:16  How can a page be forced to load another page in JavaScript?</b>
+<b> Answer:16 </b>
+    => in javascrip you can force a page to load another page by using the window.location object. 
+    => there are a few methods 
+        1) window.location.replace 
+              window.location.replace('https:// example.com');
+
+        2) window.location.assign property
+              window.location.assign('https:/ google.com')
+
+
+<b> question:17  What are the disadvantages of using innerHTML in JavaScript?</b>
+<b> Answer:17 </b>
+    => it is very slow because as inner html already parses the content even we have to parse the content again so that's why it takes time. when we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerhtml.
